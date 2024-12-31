@@ -24,7 +24,7 @@ const CalendarPage: FC = () => {
   };
 
   // Handle event drag-and-drop
-  const handleEventDrop = (info: any) => {
+  const handleEventDrop = (info: { event: { id: string; startStr: any } }) => {
     const updatedEvents = events.map((event) =>
       event.id === info.event.id
         ? { ...event, start: info.event.startStr }

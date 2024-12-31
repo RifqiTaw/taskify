@@ -7,7 +7,7 @@ import TaskCard from "./TaskCard";
 interface TaskBoardProps {
   tasks: Task[];
   setTasks: (tasks: Task[]) => void;
-  onTaskClick?: (task: Task) => void; // Optional prop for handling task clicks
+  onTaskClick?: (task: Task) => void;
 }
 
 const TaskBoard: FC<TaskBoardProps> = ({ tasks, setTasks, onTaskClick }) => {

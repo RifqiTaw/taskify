@@ -1,7 +1,7 @@
 "use client";
 
 import { FC } from "react";
-import { FaPauseCircle, FaPlayCircle } from "react-icons/fa";
+import { FaPauseCircle } from "react-icons/fa";
 import { AiFillStar } from "react-icons/ai";
 
 const TodayTask: FC = () => {
