@@ -14,7 +14,8 @@ const TodayMeeting: FC = () => {
     <div className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-lg font-bold">
-          Today's Meetings <span className="text-sm text-gray-500">(05)</span>
+          Today&apos;s Meetings{" "}
+          <span className="text-sm text-gray-500">(05)</span>
         </h2>
         <a
           href="#"

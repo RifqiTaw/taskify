@@ -27,7 +27,7 @@ const TodayTask: FC = () => {
     <div className="p-4 bg-white dark:bg-gray-800 rounded-lg shadow-md">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-lg font-bold">
-          Today's Tasks <span className="text-sm text-gray-500">(03)</span>
+          Today&apos;s Tasks <span className="text-sm text-gray-500">(03)</span>
         </h2>
         <a
           href="#"

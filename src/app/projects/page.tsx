@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { FC, useState } from "react";
 
 const ProjectsPage: FC = () => {
@@ -100,7 +101,7 @@ const ProjectsPage: FC = () => {
               <td className="p-4 border-b border-gray-700">
                 <div className="flex items-center space-x-2">
                   {project.assigned.map((member, index) => (
-                    <img
+                    <Image
                       key={index}
                       src={member.avatar}
                       alt={member.name}

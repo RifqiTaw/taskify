@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { Task } from "@/types/Task";
 
-let tasks: Task[] = []; // Penyimpanan data di memori
+const tasks: Task[] = []; // Penyimpanan data di memori
 
 // Handler GET untuk mendapatkan semua tugas
 export async function GET() {
@@ -17,6 +17,10 @@ export async function POST(req: Request) {
     description: body.description,
     status: "To Do",
     completed: 0,
+    project: "",
+    teamMembers: [],
+    priority: "Low",
+    timeline: "",
   };
 
   tasks.push(newTask); // Tambahkan tugas ke array

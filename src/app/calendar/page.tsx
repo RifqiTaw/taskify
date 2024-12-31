@@ -13,7 +13,7 @@ const CalendarPage: FC = () => {
   ]);
 
   // Handle event creation (e.g., double-click or custom modal)
-  const handleDateClick = (info: any) => {
+  const handleDateClick = (info: { dateStr: any }) => {
     const title = prompt("Enter Event Title");
     if (title) {
       setEvents([
